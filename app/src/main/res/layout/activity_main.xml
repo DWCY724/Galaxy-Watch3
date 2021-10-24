@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/galaxy_watch3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/galaxy_watch3" />
+        <!--官方Sample-->
+        <!--tvStatus: 沒有空間顯示-->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </ListView>
+        <!--官方Sample必放-->
+        <TextView
+            android:id="@+id/Terminal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:textAppearanceLarge" />
+        <TextView
+            android:id="@+id/hrSent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/PedoSent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/buttonConnect"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:onClick="OnClick"
+            android:text="@string/buttonConnect"
+            android:textOff="@string/buttonConnect"
+            android:textOn="@string/buttonDisconnect"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:text="@string/buttonSend"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

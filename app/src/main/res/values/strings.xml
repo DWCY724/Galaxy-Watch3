@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">User data</string>
+    <string name="Disconnection">Disconnection</string>
+    <string name="send">Send</string>
+    <string name="connect_to_watch">Connect To Watch</string>
+    <string name="galaxy_watch3">Galaxy Watch3</string>
+    <string name="ConnectionEstablishedMsg">Service Connection with Tizen has been established.</string>
+    <string name="ConnectionTerminatedMsg">Service Connection with Tizen has been terminated.</string>
+    <string name="ConnectionAlreadyExist">Service Connection has already been existed!!!</string>
+    <string name="ConnectionAlreadyDisconnected">Service Connection has already been disconnected!!!</string>
+    <string name="ConnectionFailure">Service Connection Failure</string>
+    <string name="NoPeersFound">No peers have been found!!!</string>
+    <string name="buttonConnect">Connect</string>
+    <string name="buttonDisconnect">Disconnect</string>
+    <string name="buttonSend">Send</string>
+</resources>
